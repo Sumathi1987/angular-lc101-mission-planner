@@ -1,13 +1,16 @@
 .editable-text {
     cursor: pointer;
-}
-
-h2 {
+  }
+  
+  h2 {
     text-align: center;
     color: brown;
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     text-decoration: underline;
-}
+    background-color: gold;
+    width: 110%;
+    border-radius: 10px;
+  }

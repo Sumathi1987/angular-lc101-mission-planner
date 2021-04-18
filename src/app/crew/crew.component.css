@@ -1,22 +1,49 @@
-li:hover {
+li {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li:hover {
     cursor: pointer;
-}
-
-.displayBox {
-    height: 275px;
-    width: auto;
-}
-
-img {
+    font-weight: bold;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .displayBox {
+    height: 100%;
+    width: fit-content;
+  }
+  
+  img {
     width: auto;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-h3 {
+  }
+  
+  h3 {
     text-align: center;
-}
-
-/* Add a 'selected' class here to style selected astronaut names a different color. */
+    font-size: 40px;
+  }
+  
+  /* Add a 'selected' class here to style selected astronaut names a different color. */
+  .selected {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+    font-style: italic;
+  }
+  
+  .image {
+    text-align: center;
+  }
+  
+  hr {
+    height: 1px;
+    width: 100%;
+  }
